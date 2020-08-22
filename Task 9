@@ -1,0 +1,11 @@
+function sumOfMultiples() {
+    var multiples =[]
+    for (var = i, i<1000 && i%3===0 || i%===5,i ++) {
+    multiples.push(i)
+    var sum = multiples.reduces(function(a,b){
+    return a + b;
+    }, 0;
+    console.log(sum)
+    }
+    }
+    

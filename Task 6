@@ -5,7 +5,7 @@ function maximumNumber(x, y, z) {
     else if (y > x && y > z) {
     return y
     }
-    else (z > x && z > y) 
+    else if (z > x && z > y) 
     {
     return z
     }

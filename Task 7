@@ -1,0 +1,12 @@
+// converts degrees celcius to degrees fahrenheit
+function celciusToFahrenheit(num) {
+    var fahrenheit = (num * 9 /5) + 32
+    return fahrenheit;
+    }
+    // converts degrees fahrenheit to degrees celcius
+    function fahrenheitToCelcius(num) {
+    var celcius = (num - 32) * 5 / 9
+    return celcius;
+    }
+    console.log(celciusToFahrenheit(22));
+    console.log(fahrenheitToCelcius(50));

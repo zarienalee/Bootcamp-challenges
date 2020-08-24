@@ -1,11 +1,11 @@
-function commonCharacters(string1,string2){
-    var stringArr1=Array.from(new Set([...string1]));
-    var stringArr2=Array.from(new Set([...string2]));
+function commonCharacters(string1, string2) {
+  var stringArr1 = Array.from(new Set([...string1]));
+  var stringArr2 = Array.from(new Set([...string2]));
 
-    var common=stringArr1.filter(function(search) {
-        return stringArr2.indexOf(search) !=-1;
-    });
+  var common = stringArr1.filter(function (search) {
+    return stringArr2.indexOf(search) != -1;
+  });
 
-    return common; 
+  return common;
 }
-console.log(commonCharacters('house', 'computers')); 
+console.log(commonCharacters("house", "computers"));

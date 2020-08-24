@@ -1,5 +1,8 @@
-console.log(0);
-console.log(1);
-console.log(2);
-console.log(3);
-console.log(4);
+let x = 0;
+let y = 1;
+console.log(x);
+console.log(y);
+x = x + 3;
+y = y + x;
+console.log(x);
+console.log(y);

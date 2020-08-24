@@ -9,3 +9,4 @@ function convertTime(val) {
 }
 convertTime(71);
 convertTime(133);
+convertTime(30);

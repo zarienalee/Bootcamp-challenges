@@ -8,4 +8,5 @@ function convertTime(val) {
     console.log(val + "minutes")
     }
     }
-convertTime(100);    
+convertTime(71); 
+convertTime(133);   
